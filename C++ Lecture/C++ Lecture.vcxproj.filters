@@ -13,28 +13,73 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\3">
+    <Filter Include="소스 파일\4주차">
+      <UniqueIdentifier>{abf8bbab-781f-409a-a9b5-fca79d887178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주차">
       <UniqueIdentifier>{f5bff5d6-6522-4394-b4b7-9dc65bebb35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주차\교재문제">
+      <UniqueIdentifier>{88cd9ad3-e292-4eb3-b383-b728b58a24b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1주차">
+      <UniqueIdentifier>{b6e551d2-5ac4-4fb9-b95c-a264c6c3e6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주차">
+      <UniqueIdentifier>{fbd1ab0c-1b97-466c-a29d-650054ce4ba1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="3-2.cpp">
-      <Filter>소스 파일\3</Filter>
+      <Filter>소스 파일\3주차</Filter>
     </ClCompile>
     <ClCompile Include="3.cpp">
-      <Filter>소스 파일\3</Filter>
+      <Filter>소스 파일\3주차</Filter>
     </ClCompile>
     <ClCompile Include="3-3.cpp">
-      <Filter>소스 파일\3</Filter>
+      <Filter>소스 파일\3주차</Filter>
     </ClCompile>
     <ClCompile Include="Circle2.cpp">
-      <Filter>소스 파일\3</Filter>
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-1.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-2.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-3.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-4.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-5.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-6.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-8,.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-9.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="교재-10.cpp">
+      <Filter>소스 파일\3주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1주차.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2주차.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4-1.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4-2.cpp">
+      <Filter>소스 파일\4주차</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
