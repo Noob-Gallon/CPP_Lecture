@@ -81,6 +81,18 @@
     <ClCompile Include="4-2.cpp">
       <Filter>소스 파일\4주차</Filter>
     </ClCompile>
+    <ClCompile Include="4-3.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4-4.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4-5.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4-6.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle2.h">
