@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\2주차">
       <UniqueIdentifier>{fbd1ab0c-1b97-466c-a29d-650054ce4ba1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4주차\교재문제">
+      <UniqueIdentifier>{fb5ce8e1-0987-4119-bd7e-fbaa35334498}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3-2.cpp">
@@ -92,6 +95,15 @@
     </ClCompile>
     <ClCompile Include="4-6.cpp">
       <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-1.cpp">
+      <Filter>소스 파일\4주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-2.cpp">
+      <Filter>소스 파일\4주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-3.cpp">
+      <Filter>소스 파일\4주차\교재문제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
