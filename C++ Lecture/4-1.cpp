@@ -19,7 +19,10 @@ class Circle {
 
 // 상속의 예시. private은 상속되지 않으며, protected는 private이지만, 상속은 가능하다.
 class ColoredCircle : public Circle {
-	
+public:
+	void print() {
+		cout << x << endl;
+	}
 private:
 	string color;
 

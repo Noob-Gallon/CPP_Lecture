@@ -25,6 +25,21 @@
     <Filter Include="Source Files\Class\ReferenceMember">
       <UniqueIdentifier>{f42f2138-0f62-4e52-ba98-59846ff7a05a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Class\PrivateConstructor">
+      <UniqueIdentifier>{6c769f30-11ab-421e-bffe-e720b1300094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class\Destructor">
+      <UniqueIdentifier>{93414da7-0970-4ad3-9eb6-1ec53d986867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class\Objarr">
+      <UniqueIdentifier>{68f8e71f-eecd-48c1-be44-203abc4f60b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class\PointerThis">
+      <UniqueIdentifier>{8f9aa677-dbc5-40f4-8b2f-74913d1bb56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class\SelfRef">
+      <UniqueIdentifier>{02864b1f-dec6-4e79-8079-7bc7d53ca7dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">
@@ -49,6 +64,27 @@
     </ClCompile>
     <ClCompile Include="ReferenceMember.cpp">
       <Filter>Source Files\Class\ReferenceMember</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivateConstructor.cpp">
+      <Filter>Source Files\Class\PrivateConstructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructor.cpp">
+      <Filter>Source Files\Class\Destructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Objarr.cpp">
+      <Filter>Source Files\Class\Objarr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjPtrArr.cpp">
+      <Filter>Source Files\Class\Objarr</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerThis.cpp">
+      <Filter>Source Files\Class\PointerThis</Filter>
+    </ClCompile>
+    <ClCompile Include="UsefulThisPtr.cpp">
+      <Filter>Source Files\Class\PointerThis</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRef.cpp">
+      <Filter>Source Files\Class\SelfRef</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

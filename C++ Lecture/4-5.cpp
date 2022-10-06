@@ -16,7 +16,7 @@ int main(void) {
 
 	sort(first.begin(), first.end(), compare);
 	// 맨 끝이 포함되지 않는다.
-	// 함수의 일음을 그대로 넣는다.	
+	// 함수의 이름을 그대로 넣는다.	
 
 	for (auto v : first) {
 		cout << v << endl;
