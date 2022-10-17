@@ -162,10 +162,30 @@
     <ClCompile Include="7_4_const.cpp">
       <Filter>소스 파일\7주차</Filter>
     </ClCompile>
+    <ClCompile Include="1488.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="1489.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="1539.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="1540.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="1541.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1490.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </None>
   </ItemGroup>
 </Project>
