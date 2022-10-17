@@ -131,8 +131,6 @@ int main(void) {
 	cout << s1.empty() << endl;
 	cout << s1.insert(2, s2) << endl; // s1의 두 번째 위치, s1[2]부터에 s2를 insert한다.
 	cout << s1.find("llo") << endl;
-
-	return 0;
 	
 	string s3 = s1 + s2;
 	s1 += s2;
@@ -165,15 +163,11 @@ int main(void) {
 	mySwapRef(x3, y3);
 	cout << x3 << " " << y3 << " " << v3 << endl;
 
-	return 0;
-
 	// ---------------------------------------------
 
 	cout << a << " " << b << " " << w << endl;
 	mySwap(&a, &b);
 	cout << a << " " << b << " " << w << endl;
-
-	return 0;
 
 	// ---------------------------------------------
 
@@ -193,8 +187,6 @@ int main(void) {
 	int y2 = 20;
 	int v2 = my_func(&x2, &y2);
 
-	return 0;
-
 	// ---------------------------------------------
 
 
@@ -208,7 +200,7 @@ int main(void) {
 
 	string names[] = { "james", "john", "tom" };
 
-	for (auto v : names) {
+	for (auto v : names) { // 주소를 반환...
 		for (auto c : v) {
 			cout << c << endl;
 		}
@@ -216,17 +208,21 @@ int main(void) {
 
 	// ---------------------------------------------
 
-	int a[3][3] = {
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9}
+	int a[3][3][1] = {
+		{ {1}, {2}, {3} },
+		{ {4}, {5}, {6} },
+		{ {7}, {8}, {9} }
 	};
 
 	// 옛날 방식
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-			cout << a[i][j] << endl;
+			for (int k = 0; k < 1; k++) {
+				cout << a[i][j][k] << " ";
+
+			}
 		}
+		cout << "\n";
 	}
 
 	// range based for loop
@@ -237,8 +233,10 @@ int main(void) {
 		// c++에서는 int& a; 가 된다. 포인터와 기능은 같은데, 그 변수에 다른 이름을 붙이는 것과 같은 기능을 한다.
 		
 
-		for (auto v2 : v) {
-			cout << v2 << endl;
+		for (auto& v2 : v) {
+			for (auto v3 : v2) {
+				cout << v3 << " ";
+			}
 		}
 	}
 

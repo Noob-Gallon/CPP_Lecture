@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\4주차\교재문제">
       <UniqueIdentifier>{fb5ce8e1-0987-4119-bd7e-fbaa35334498}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Midterm">
+      <UniqueIdentifier>{f31aa21d-a672-4064-b843-b174ec7dc7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7주차">
+      <UniqueIdentifier>{db59ff8c-88da-4a76-b31c-58372d0c7f5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3-2.cpp">
@@ -104,6 +110,57 @@
     </ClCompile>
     <ClCompile Include="Q4-3.cpp">
       <Filter>소스 파일\4주차\교재문제</Filter>
+    </ClCompile>
+    <ClCompile Include="stringExample.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="example.cpp">
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorExample.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorEx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="myVector.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="are_you_hungry.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="singletonPattern.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="vector1.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="stringEx.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_1_pointer.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_2_DMA.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_2_2_DMA.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_3_Smart_Pointer.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_4_const.cpp">
+      <Filter>소스 파일\7주차</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

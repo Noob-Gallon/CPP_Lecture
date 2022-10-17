@@ -6,13 +6,13 @@ using namespace std;
 
 bool compare(int a, int b) {
 
-	return a < b;
+	return a > b;
 
 }
 
 int main(void) {
 
-	vector<int> first{ 5, 4, 3, 2, 1 };
+	vector<int> first{ 1, 2, 3, 4, 5 };
 
 	sort(first.begin(), first.end(), compare);
 	// 맨 끝이 포함되지 않는다.

@@ -40,6 +40,9 @@
     <Filter Include="Source Files\Class\SelfRef">
       <UniqueIdentifier>{02864b1f-dec6-4e79-8079-7bc7d53ca7dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\kodejun_temp">
+      <UniqueIdentifier>{3de5dc28-6911-4acd-82b4-3dde1f284b57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">
@@ -85,6 +88,12 @@
     </ClCompile>
     <ClCompile Include="SelfRef.cpp">
       <Filter>Source Files\Class\SelfRef</Filter>
+    </ClCompile>
+    <ClCompile Include="_49_inheritance.cpp">
+      <Filter>Source Files\kodejun_temp</Filter>
+    </ClCompile>
+    <ClCompile Include="_49_inheritance_protected.cpp">
+      <Filter>Source Files\kodejun_temp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

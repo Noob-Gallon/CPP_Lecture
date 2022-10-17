@@ -41,7 +41,7 @@ public:
 bool compare_circle(Circle& c, Circle& d) {
 
 	if (c.getX() == d.getX()) {
-		return  true;
+		return true;
 	}
 
 	return false;
