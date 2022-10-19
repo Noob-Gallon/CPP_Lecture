@@ -177,6 +177,21 @@
     <ClCompile Include="1541.cpp">
       <Filter>소스 파일\Midterm</Filter>
     </ClCompile>
+    <ClCompile Include="7_5.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_6.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_7.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_8.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="7_9.cpp">
+      <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle2.h">

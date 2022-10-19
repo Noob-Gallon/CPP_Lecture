@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -12,6 +13,12 @@ public:
 	int age;
 
 };
+
+bool compare(Person& _a, Person& _b) {
+
+	return (_a.age < _b.age);
+
+}
 
 class People {
 
@@ -41,6 +48,11 @@ public:
 		}
 
 		return p;
+	}
+	Person sortPersonByAge(void) {
+		sort(person.begin(), person.end(), compare);
+
+		return person.back();
 	}
 	int howManyUnderAge(int _age) {
 		int cnt = 0;
@@ -85,6 +97,7 @@ int main()
 	cout << p.getCount() << endl;
 	Person _i = p.getPersonByName(name);
 	cout << _i.name << " " << _i.age << endl;
+	cout << p.sortPersonByAge().name << " " << p.sortPersonByAge().age << endl;
 	cout << p.getOldestPerson().name << endl;
 	cout << p.howManyUnderAge(30) << endl;
 
