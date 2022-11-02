@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\7주차">
       <UniqueIdentifier>{db59ff8c-88da-4a76-b31c-58372d0c7f5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9주차">
+      <UniqueIdentifier>{ab29d5ff-fd6e-47ac-822f-3d1aaeaff418}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3-2.cpp">
@@ -191,6 +194,45 @@
     </ClCompile>
     <ClCompile Include="7_9.cpp">
       <Filter>소스 파일\7주차</Filter>
+    </ClCompile>
+    <ClCompile Include="classEx.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="7repeat.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="myEx.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="check.cpp">
+      <Filter>소스 파일\Midterm</Filter>
+    </ClCompile>
+    <ClCompile Include="9_1.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_2_singleton_pattern.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_3.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_4.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_5.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_6.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_7.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_8.cpp">
+      <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="9_9.cpp">
+      <Filter>소스 파일\9주차</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
