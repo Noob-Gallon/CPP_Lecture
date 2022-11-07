@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\9주차">
       <UniqueIdentifier>{ab29d5ff-fd6e-47ac-822f-3d1aaeaff418}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10주차">
+      <UniqueIdentifier>{d1926fe2-8388-48e9-b098-ef9365f617b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3-2.cpp">
@@ -233,6 +236,18 @@
     </ClCompile>
     <ClCompile Include="9_9.cpp">
       <Filter>소스 파일\9주차</Filter>
+    </ClCompile>
+    <ClCompile Include="10_1.cpp">
+      <Filter>소스 파일\10주차</Filter>
+    </ClCompile>
+    <ClCompile Include="10_2.cpp">
+      <Filter>소스 파일\10주차</Filter>
+    </ClCompile>
+    <ClCompile Include="10_3.cpp">
+      <Filter>소스 파일\10주차</Filter>
+    </ClCompile>
+    <ClCompile Include="10_4.cpp">
+      <Filter>소스 파일\10주차</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
